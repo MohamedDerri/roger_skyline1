@@ -1,0 +1,9 @@
+[apache]
+
+enabled = true
+port = http,https
+logpath = /var/log/apache2/access.log
+findtime = 30
+bantime = 600
+maxretry = 100
+filter = apache-jail
